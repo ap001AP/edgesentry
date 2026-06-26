@@ -1,0 +1,3 @@
+# Host-side bridge dependencies
+pyserial==3.5        # read the Pico's USB serial output
+paho-mqtt==1.6.1     # publish readings to the MQTT broker
