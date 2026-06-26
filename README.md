@@ -69,8 +69,8 @@ docs/          architecture notes + decision records (ADRs)
 ## Status / roadmap
 
 - [x] Repo + tooling setup
-- [ ] Firmware: DHT22 read + edge pre-filter
-- [ ] Serial-to-MQTT bridge
+- [x] Firmware: DHT22 read + edge pre-filter
+- [x] Serial-to-MQTT bridge
 - [ ] Device simulator
 - [ ] FastAPI ingestion + data contract
 - [ ] LLM summarizer + guardrails
