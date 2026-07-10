@@ -1,0 +1,24 @@
+# =============================================================================
+# EdgeSentry - Ingestion Service dependencies
+# =============================================================================
+
+# --- Web framework ---
+fastapi==0.115.6          # the HTTP API (health checks, query endpoints)
+uvicorn[standard]==0.34.0 # ASGI server that runs FastAPI
+
+# --- Data validation ---
+pydantic==2.10.4          # schemas / the data contract
+pydantic-settings==2.7.0  # load config from environment variables
+
+# --- MQTT ---
+paho-mqtt==1.6.1          # subscribe to the broker (same lib as the bridge)
+
+# --- Database (Postgres) ---
+psycopg[binary]==3.2.3    # modern Postgres driver for Python
+SQLAlchemy==2.0.36        # ORM / query builder over Postgres
+
+# --- Observability (added in a later step, listed now to avoid churn) ---
+prometheus-client==0.21.1 # expose metrics for Prometheus to scrape
+
+# --- Testing ---
+pytest==8.3.4             # unit tests
