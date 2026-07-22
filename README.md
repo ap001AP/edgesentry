@@ -72,7 +72,7 @@ docs/          architecture notes + decision records (ADRs)
 - [x] Firmware: DHT22 read + edge pre-filter
 - [x] Serial-to-MQTT bridge
 - [ ] Device simulator
-- [ ] FastAPI ingestion + data contract
+- [x] FastAPI ingestion + data contract
 - [ ] LLM summarizer + guardrails
 - [ ] Drift detection
 - [ ] Kubernetes deploy (Mosquitto, Helm, Terraform)
