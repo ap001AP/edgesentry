@@ -71,7 +71,7 @@ docs/          architecture notes + decision records (ADRs)
 - [x] Repo + tooling setup
 - [x] Firmware: DHT22 read + edge pre-filter
 - [x] Serial-to-MQTT bridge
-- [ ] Device simulator
+- [x] Device simulator
 - [x] FastAPI ingestion + data contract
 - [ ] LLM summarizer + guardrails
 - [ ] Drift detection
